@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\n\ \ This\ class\ is\ the\ main\ class\ of\ the\ "Cell\ Attack"\ application.\ \n\ \ "Cell\ Attack"\ is\ a\ text\ based\ adventure\ game.\ \ \n\ \n\ \ To\ play\ this\ game,\ create\ an\ instance\ of\ this\ class\ and\ call\ the\ "play"\n\ \ method.\n\ \n\ \ This\ main\ class\ creates\ and\ initialises\ all\ the\ others\:\ it\ creates\ all\n\ \ rooms,\ creates\ the\ parser\ and\ starts\ the\ game.\ \ It\ also\ evaluates\ and\n\ \ executes\ the\ commands\ that\ the\ parser\ returns.\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ and\ Kim-Anh\ Vu\ \n\ @version\ 2017.12.08\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\n\ Create\ the\ game\ and\ initialise\ its\ internal\ map.\n
+comment2.params=
+comment2.target=void\ createRooms()
+comment2.text=\n\ Create\ all\ the\ rooms,\ links\ their\ exits\ together\ and\ states\ whether\ or\ not\ they\ have\ been\ destroyed.\n\ Also,\ creates\ all\ items\ and\ assigns\ whether\ or\ not\ can\ be\ picked\ up\ and\ weight\ to\ corresponding\ item.\ \n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\n
+comment4.params=
+comment4.target=void\ printWelcome()
+comment4.text=\n\ Print\ out\ the\ opening\ message\ for\ the\ player.\n
+comment5.params=command
+comment5.target=boolean\ processCommand(Command)
+comment5.text=\n\ Given\ a\ command,\ process\ (that\ is\:\ execute)\ the\ command.\n\ @param\ command\ The\ command\ to\ be\ processed.\n\ @return\ true\ If\ the\ command\ ends\ the\ game,\ false\ otherwise.\n
+comment6.params=
+comment6.target=void\ printHelp()
+comment6.text=\n\ Print\ out\ some\ help\ information.\n\ Here\ we\ print\ some\ stupid,\ cryptic\ message\ and\ a\ list\ of\ the\ \n\ command\ words.\n
+comment7.params=command
+comment7.target=boolean\ quit(Command)
+comment7.text=\ \n\ "Quit"\ was\ entered.\ Check\ the\ rest\ of\ the\ command\ to\ see\n\ whether\ we\ really\ quit\ the\ game.\n\ @return\ true,\ if\ this\ command\ quits\ the\ game,\ false\ otherwise.\n
+numComments=8

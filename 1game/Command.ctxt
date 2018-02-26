@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\ \ \n\ This\ class\ holds\ information\ about\ a\ command\ that\ was\ issued\ by\ the\ user.\n\ A\ command\ currently\ consists\ of\ three\ strings\:\ a\ command\ word,\ second\n\ word\ and\ a\ third\ word\ (for\ example,\ if\ the\ command\ was\ "take\ map",\ then\ the\ \n\ three\ strings\ obviously\ are\ "take",\ "map"\ and\ null).\n\ \n\ The\ way\ this\ is\ used\ is\:\ Commands\ are\ already\ checked\ for\ being\ valid\n\ command\ words.\ If\ the\ user\ entered\ an\ invalid\ command\ (a\ word\ that\ is\ not\n\ known)\ then\ the\ command\ word\ is\ <null>.\n\n\ If\ the\ command\ had\ only\ one\ word,\ then\ the\ second\ word\ is\ <null>.\n\ \n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes\ and\ Kim-Anh\ Vu\n\ @version\ 2017.12.08\n
+comment1.params=firstWord\ secondWord\ thirdWord
+comment1.target=Command(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Create\ a\ command\ object.\ First,\ second\ and\ third\ word\ must\ be\ \n\ supplied,\ but\ either\ one\ (or\ both)\ can\ be\ null.\n\ @param\ firstWord\ The\ first\ word\ of\ the\ command.\ Null\ if\ the\ command\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ was\ not\ recognised.\n\ @param\ secondWord\ The\ second\ word\ of\ the\ command.\n\ @param\ thirdWord\ The\ third\ word\ of\ the\ command\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\n\ Return\ the\ command\ word\ (the\ first\ word)\ of\ this\ command.\ If\ the\n\ command\ was\ not\ understood,\ the\ result\ is\ null.\n\ @return\ The\ command\ word.\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\n\ @return\ The\ second\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\n\ second\ word.\n
+comment4.params=
+comment4.target=java.lang.String\ getThirdWord()
+comment4.text=\n\ @return\ The\ third\ word\ of\ this\ command.\ Returns\ null\ if\ there\ was\ no\n\ third\ word.\n
+comment5.params=
+comment5.target=boolean\ isUnknown()
+comment5.text=\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\n
+comment6.params=
+comment6.target=boolean\ hasSecondWord()
+comment6.text=\n\ @return\ true\ if\ the\ command\ has\ a\ second\ word.\n
+comment7.params=
+comment7.target=boolean\ hasThirdWord()
+comment7.text=\n\ @return\ true\ if\ the\ command\ has\ a\ third\ word.\n
+numComments=8

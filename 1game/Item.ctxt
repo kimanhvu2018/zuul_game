@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ This\ class\ creates\ item\ objects\ and\ returns\ attributes\ of\ items\ \n\ including\ weight,\ name,\ description\ and\ whether\ or\ it\ can\ be\ picked\n\ up.\n\n\ @\ Kim-Anh\ Vu\n\ @\ 2017.12.08\n
+comment1.params=name\ weight\ canPickUp
+comment1.target=Item(java.lang.String,\ int,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Item\n
+comment2.params=
+comment2.target=int\ getWeight()
+comment2.text=\n\ returns\ weight\ of\ item\ object\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\n\ returns\ name\ of\ item\ object\n
+comment4.params=
+comment4.target=boolean\ getCanPickUp()
+comment4.text=\n\ returns\ whether\ or\ not\ item\ can\ be\ picked\ up\ or\ not\n
+numComments=5
